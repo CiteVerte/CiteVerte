@@ -36,3 +36,71 @@
     transform: rotate(360deg);
   }
 }
+
+.Container {
+  display: flex;
+  border: solid red 1px;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.Body {
+  display: flex;
+  border: solid red 1px;
+  max-width: 1024px;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.Main-Section {
+  display: flex;
+  border: solid red 1px;
+  width: 57%;
+  flex-direction: column;
+  margin: 2%;
+  margin-right: 0;
+  margin-top: 5%;
+}
+
+.Sectionsmall {
+  display: flex;
+  border: solid red 1px;
+  width: 35%;
+  flex-direction: column;
+  margin: 2%;
+  margin-left: 0;
+  margin-top: 5%;
+}
+
+.Section {
+  display: flex;
+  border: solid red 1px;
+  width: 45%;
+  flex-direction: column;
+  margin: 2%;
+}
+
+.section-title {
+  border: solid red 1px;
+}
+
+.section-body {
+  display: flex;
+  border: solid red 1px;
+  height: 70%;
+  width: 100%;
+}
+
+.section-image {
+  border: solid red 1px;
+  width: 50%;
+  /* height: 100%; */
+}
+
+.section-text {
+  border: solid red 1px;
+  width: 50%;
+  /* height: 100%; */
+}
